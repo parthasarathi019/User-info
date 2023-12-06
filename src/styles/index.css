@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    /* Hide the vertical scrollbar */
+    ::-webkit-scrollbar {
+        width: 0;
+        background: transparent;
+      }
+    }
